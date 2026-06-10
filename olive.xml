@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Device Tree (olive/olivelite/olivewood unified) -->
+  <project name="LineageOS/android_device_xiaomi_Mi439"
+           path="device/xiaomi/Mi439"
+           remote="github"
+           revision="lineage-23.2" />
+
+  <!-- Common Tree (mithorium-common) -->
+  <project name="LineageOS/android_device_xiaomi_mithorium-common"
+           path="device/xiaomi/mithorium-common"
+           remote="github"
+           revision="lineage-23.2" />
+
+  <!-- Kernel -->
+  <project name="LineageOS/android_kernel_xiaomi_msm8937"
+           path="kernel/xiaomi/msm8937"
+           remote="github"
+           revision="lineage-23.2" />
+
+  <!-- Vendor blobs -->
+  <project name="TheMuppets/proprietary_vendor_xiaomi"
+           path="vendor/xiaomi"
+           remote="github"
+           revision="lineage-23.2" />
+
+</manifest>
