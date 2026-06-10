@@ -19,10 +19,10 @@
            remote="github"
            revision="lineage-23.2" />
 
-  <!-- Vendor blobs -->
-  <project name="TheMuppets/proprietary_vendor_xiaomi"
-           path="vendor/xiaomi"
+  <!-- Vendor blobs (using steadfasterX mirror, TheMuppets was rate limited) -->
+  <project name="steadfasterX/android_vendor_xiaomi_olive"
+           path="vendor/xiaomi/olive"
            remote="github"
-           revision="lineage-23.2" />
+           revision="main" />
 
 </manifest>
